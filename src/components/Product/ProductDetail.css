@@ -1,0 +1,137 @@
+.details {
+    width: 1200px;
+    max-width: 100%;
+    margin: 100px auto;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    background-image: linear-gradient(176.07deg, #5a2779 .13%, #175091 40.1%, #042546 86.36%);
+    ;
+}
+
+.details .bigImage {
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.bigImage img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+.details .box {
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+
+.box h2 {
+    color: white;
+    font-weight: 1000;
+    font-size: 2.14286em;
+    text-transform: uppercase;
+    font-family: Evogria, sans-serif;
+    margin-bottom: 20px;
+    line-height: 1;
+    font-style: italic;
+    word-wrap: break-word;
+    margin: 0 0 27.5px;
+}
+
+.box span {
+    color: white;
+    font-weight: 1000;
+    font-size: .9375em;
+    font-family: Evogria, sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-style: normal;
+    word-wrap: break-word;
+    margin: 0 0 27.5px;
+}
+
+.box table {
+    margin-top: 30px;
+    margin-bottom: 17.5px;
+    color: white;
+    table-layout: fixed;
+    width: 100%;
+    line-height: 1.8;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    text-indent: initial;
+    border-color: grey;
+}
+
+.box table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.box table tbody tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.box table tbody tr th {
+    letter-spacing: -1.5px;
+    font-weight: 1000;
+    text-align: left;
+    border: 1px solid #898989;
+    padding: 10px 14px;
+    font-family: Evogria, sans-serif;
+    font-style: italic;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.box table tbody tr td {
+    letter-spacing: 0px;
+    text-align: left;
+    border: 1px solid #898989;
+    padding: 10px 14px;
+    font-family: Evogria, sans-serif;
+    font-style: normal;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.box button {
+    align-items: center;
+    appearance: none;
+    background-position: center;
+    background: #c25be9;
+    border-radius: 5px;
+    border: 1px solid #c25be9;
+    box-shadow: 5px 5px 5px #0000001a;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: Evogria, sans-serif;
+    font-size: .75em;
+    font-style: normal;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: .1em;
+    line-height: 1.2;
+    min-width: 1px;
+    padding: 13px 8px;
+    margin-top: 40px;
+    margin-inline-start: 25%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: normal;
+    width: 50%;
+}

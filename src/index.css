@@ -7,10 +7,17 @@
   align-items: center;
   flex-direction: column;
   font-family: "Nunito", sans-serif;
-  background-image: linear-gradient(90deg, #410076, #8820dd);
+  background-image: linear-gradient(176.07deg, #5a2779 .13%, #175091 40.1%, #042546 86.36%);
 }
 
 body {
   padding: 0;
   margin: 0;
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local("Evogria"),
+    url("./components/fonts/Evogria/Evogria.otf") format("truetype");
+  font-weight: bold;
 }
