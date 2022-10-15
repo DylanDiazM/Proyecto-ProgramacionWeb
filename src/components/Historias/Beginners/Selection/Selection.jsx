@@ -66,34 +66,40 @@ const Selection = () => (
       <Row style={{ width: "80%", margin: "auto" }}>
         <Row className="text-center" style={{ marginTop: "3rem" }}>
           <Col>
-            <BsButton className="boton">
-              <Row className="img-boton">
-                <GiGamepad size="120px" />
-              </Row>
-              <Row>
-                <p>Gaming</p>
-              </Row>
-            </BsButton>
+            <a href="/optimized-build">
+              <BsButton className="boton">
+                <Row className="img-boton">
+                  <GiGamepad size="120px" />
+                </Row>
+                <Row>
+                  <p>Gaming</p>
+                </Row>
+              </BsButton>
+            </a>
           </Col>
           <Col>
-            <BsButton className="boton">
-              <Row className="img-boton">
-                <GiPencilBrush size="90px" />
-              </Row>
-              <Row>
-                <p>Design</p>
-              </Row>
-            </BsButton>
+            <a href="/optimized-build">
+              <BsButton className="boton">
+                <Row className="img-boton">
+                  <GiPencilBrush size="90px" />
+                </Row>
+                <Row>
+                  <p>Design</p>
+                </Row>
+              </BsButton>
+            </a>
           </Col>
           <Col>
-            <BsButton className="boton">
-              <Row className="img-boton">
-                <RiCodeBoxFill size="100px" />
-              </Row>
-              <Row>
-                <p>Coding</p>
-              </Row>
-            </BsButton>
+            <a href="/optimized-build-second">
+              <BsButton className="boton">
+                <Row className="img-boton">
+                  <RiCodeBoxFill size="100px" />
+                </Row>
+                <Row>
+                  <p>Coding</p>
+                </Row>
+              </BsButton>
+            </a>
           </Col>
         </Row>
         <Row
@@ -101,34 +107,40 @@ const Selection = () => (
           style={{ marginBottom: "8rem", marginTop: "3rem" }}
         >
           <Col>
-            <BsButton className="boton">
-              <Row className="img-boton">
-                <FaLaptopCode size="90px" />
-              </Row>
-              <Row>
-                <p>Rendering</p>
-              </Row>
-            </BsButton>
+            <a href="/optimized-build">
+              <BsButton className="boton">
+                <Row className="img-boton">
+                  <FaLaptopCode size="90px" />
+                </Row>
+                <Row>
+                  <p>Rendering</p>
+                </Row>
+              </BsButton>
+            </a>
           </Col>
           <Col>
-            <BsButton className="boton">
-              <Row className="img-boton">
-                <MdWork size="100px" />
-              </Row>
-              <Row>
-                <p>Office</p>
-              </Row>
-            </BsButton>
+            <a href="/optimized-build-second">
+              <BsButton className="boton">
+                <Row className="img-boton">
+                  <MdWork size="100px" />
+                </Row>
+                <Row>
+                  <p>Office</p>
+                </Row>
+              </BsButton>
+            </a>
           </Col>
           <Col>
-            <BsButton className="boton">
-              <Row className="img-boton">
-                <FaArrowRight size="80px" />
-              </Row>
-              <Row>
-                <p>Other</p>
-              </Row>
-            </BsButton>
+            <a href="/optimized-build-second">
+              <BsButton className="boton">
+                <Row className="img-boton">
+                  <FaArrowRight size="80px" />
+                </Row>
+                <Row>
+                  <p>Other</p>
+                </Row>
+              </BsButton>
+            </a>
           </Col>
         </Row>
       </Row>

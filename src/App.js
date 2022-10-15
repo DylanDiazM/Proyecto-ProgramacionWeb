@@ -5,6 +5,8 @@ import {
   Review,
   Ranking,
   OptimizedBuild,
+  SelectionBuild,
+  OptimizedBuildSecond,
 } from "./components/pages";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
@@ -19,6 +21,11 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/ranking" element={<Ranking />} />
         <Route path="/optimized-build" element={<OptimizedBuild />} />
+        <Route
+          path="/optimized-build-second"
+          element={<OptimizedBuildSecond />}
+        />
+        <Route path="/selection" element={<SelectionBuild />} />
       </Routes>
     </>
   );

@@ -26,8 +26,8 @@ const FooterContainer = styled.footer`
     width: 100%;
     font-size: 0.8125em;
     padding-top: 4rem;
-    padding-bottom: 0;
     text-align: center;
+    bottom: 0;
   }
 
   .container {

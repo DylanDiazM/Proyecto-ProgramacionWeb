@@ -1,3 +1,2 @@
-import Optimized from "./Optimized";
-
-export default Optimized;
+export { default as Optimized } from "./Optimized.jsx";
+export { default as OptimizedSecond } from "./OptimizedSecond.jsx";
