@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Header } from './componentes/header';
+import 'boxicons';
+import { Support } from './componentes/Support';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { Paginas } from './componentes/Paginas';
+import { Guide } from './componentes/historia17/Guide';
+import { Questions } from './componentes/historia18/Questions';
+import { Ticket } from './componentes/historia19/Ticket';
+import { Screen } from './componentes/historia15/Screen';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Header><Routes><Route path='/Support'element={<Support/>}/></Routes></Header>
+      </BrowserRouter>
+      <Paginas/>
+      <Screen></Screen>
+
+      
     </div>
   );
 }

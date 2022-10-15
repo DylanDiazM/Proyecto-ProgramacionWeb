@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #252436dc;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App{
+    max-width: 1550px;
+    width: 100%;
+    
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 5px 6px black;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #252436dc;
+  
+  
   }
-  to {
-    transform: rotate(360deg);
+  header{
+    width: 97%;
+    min-height: 150px;
+    max-width: 1530px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    box-sizing: border-box;
+    background-color: #252436dc;
+    box-shadow: 0 5px 10px rgb(3, 3, 3);
+  
+  
   }
+  a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  
+  }
+  a:hover{
+    color: red;
+  
+  }
+  li{
+    list-style: none;
+  }
+  header ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+  
+  
+  }
+  header ul li{
+    padding: 0 1rem;
+  
+  }
+  header ul li a{
+    font-weight: bold;
+  }
+  header .cart{
+    position: relative;
+    cursor: pointer;
+  
+  }
+  header .user{
+    position: relative;
+    cursor: pointer;
+  
+  
+  }
+  header .search{
+    position: relative;
+    cursor:pointer;
+  
+  
+  }
+  header .user box-icon{
+    width: 45px ;
+    height: 45px;
+    
+  
+  }
+  header .search box-icon{
+    width: 45px;
+    height: 45px;
+  }
+  header .cart box-icon{
+    width: 45px ;
+    height: 45px;
+  }
+  header .cart span{
+    position: absolute;
+    top: -1rem;
+    right: -1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 0rem;
+    font-size: 1.5rem;
+    font-weight:700 ;
+    background-color: red;
+  }
+
+  .titulo_support{
+    text-align: center ;
+    color: white;
+  }
+
+.caja{
+    background-color: gray ;
+	border: 2px solid black;
+    border-radius: 20px;
+	width: fit-content;
+	height: 100px;
+	padding: 100px;
+	margin: 50px;
+    color: white;
+    box-shadow: 0 5px 10px rgb(3, 3, 3);
+
+    
+}
+
+body{
+    background-color: #252436dc;
+}
+.caja_preguntas{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+	width: 50%;
+    font-weight: 500;
+	height: 100%;
+	padding: 60px;
+	margin: 50px;
+    color: white;
+    box-shadow: 0 5px 10px rgb(3, 3, 3);
+    flex-direction: row;
+}
+
+.formulario{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+	width: 50%;
+    font-weight: 500;
+	height: 100%;
+	padding: 40px;
+	margin: 50px;
+    color: black;
+    box-shadow: 0 5px 10px rgb(3, 3, 3);
+    flex-direction: row;
+}
+
+.titulo_giant{
+    text-align: center ;
+    color: white;
+}
+.titulo_right{
+    text-align: center;
+    color: white;
+    
+}
+.boton{
+    text-align: center;
+    align-content: center;
+    color: purple;
+}
+.monitor{
+    padding-left: 25%;
 }
