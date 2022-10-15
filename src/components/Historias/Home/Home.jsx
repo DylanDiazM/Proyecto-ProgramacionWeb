@@ -14,6 +14,7 @@ const Button = styled(BsButton)`
   border: none;
   border-radius: 5px;
   width: 250px;
+  margin-top: 1rem;
 `;
 
 const Home = () => (
@@ -34,7 +35,9 @@ const Home = () => (
     </Row>
     <Row xs lg={5}>
       <Col>
-        <Button className="text-start">Build for begginers</Button>
+        <a href="/selection">
+          <Button className="text-start">Build for begginers</Button>
+        </a>
       </Col>
       <Col>
         <Button>Advanced building</Button>
