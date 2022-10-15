@@ -42,7 +42,7 @@ function SearchBar({ placeholder, data, title }) {
                     {filteredData.map((value, key) => {
                         return <a className='dataItem' href={"/" + value.name} target="_blank" >
                             <div className='row'>
-                                <img className='center' src="https://yt3.ggpht.com/GDjDgYYW3x2V7fjv9Q6WJtvnhzttd2l5OMD6usdE54OiLxBsW8SRIudvERw_29qzrbZ0hkbI9A=s900-c-k-c0x00ffffff-no-rj" alt="" />
+                                <img className='center' src="https://pbs.twimg.com/profile_images/1145524454170062848/U4lxVYEw_400x400.png" alt="" />
                                 <column>
                                     <div className='name'>{value.name}</div>
                                     <div className='price'>{value.price_usd === null ? "No price" : "$" + value.price_usd}</div>

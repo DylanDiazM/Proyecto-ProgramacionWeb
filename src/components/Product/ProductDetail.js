@@ -1,12 +1,18 @@
-import React, { useState, useEffect, useContext } from "react"
+import React, { useState, useEffect, useContext, Component } from "react"
 import { Link, useParams } from "react-router-dom"
 import "./ProductDetail.css"
-import data from "./cpu.json"
+import data from "../data/cpu"
 import { Button } from "@mui/material"
+import { DataContext } from "../Cart/ShoppingCartContext"
 
-export default function ProductDetail() {
+
+
+export default function ProductDetail({ data, addToCart }) {
+
     const [productDetail, setProductDetail] = useState([])
     const { name } = useParams()
+
+
 
     useEffect(() => {
         const findProduct = () => {
@@ -21,7 +27,7 @@ export default function ProductDetail() {
     return (
         <div className="details">
             <div className="bigImage">
-                <img src="https://yt3.ggpht.com/GDjDgYYW3x2V7fjv9Q6WJtvnhzttd2l5OMD6usdE54OiLxBsW8SRIudvERw_29qzrbZ0hkbI9A=s900-c-k-c0x00ffffff-no-rj" alt="" />
+                <img src="https://pbs.twimg.com/profile_images/1145524454170062848/U4lxVYEw_400x400.png" alt="" />
             </div>
             <div className="box">
                 <h2>{productDetail.name}</h2>
@@ -49,12 +55,12 @@ export default function ProductDetail() {
                     </tbody>
                 </table>
 
-                <button className="cart">Add to cart</button>
-
+                <button
+                    className="cart"
+                    onClick={() => addToCart(productDetail)}
+                >Add to cart
+                </button>
             </div>
         </div >
-
     )
-
-
 }
