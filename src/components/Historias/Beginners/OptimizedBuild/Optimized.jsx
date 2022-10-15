@@ -260,13 +260,13 @@ const Optimized = (item) => (
           <>
             <Col xs lg="6">
               <p>Components Price</p>
-              <p className="text-end" style={{ fontWeight: "bold" }}>
+              <p className="text-center" style={{ fontWeight: "bold" }}>
                 ${item.price}
               </p>
             </Col>
             <Col xs lg="4">
               <p>Build fee</p>
-              <p className="text-end" style={{ fontWeight: "bold" }}>
+              <p className="text-center" style={{ fontWeight: "bold" }}>
                 ${item.ensamblePrice}
               </p>
             </Col>
