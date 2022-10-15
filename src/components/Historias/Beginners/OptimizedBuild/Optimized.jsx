@@ -97,7 +97,7 @@ const Optimized = (item) => (
             alt="Case de PC"
           />
         </Col>
-        <Col xs="auto" style={{ marginLeft: "14rem" }}>
+        <Col xs="auto" style={{ marginLeft: "12rem" }}>
           <p style={{ fontSize: "2rem" }}>Componentes</p>
           <Row>
             {data.map((item, i) => (

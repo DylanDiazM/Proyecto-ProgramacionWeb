@@ -8,7 +8,6 @@ import { GiGamepad, GiPencilBrush } from "react-icons/gi";
 import { RiCodeBoxFill } from "react-icons/ri";
 import { FaLaptopCode, FaArrowRight } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 const Button = styled(BsButton)`
   /* Adaptar el color en base a una prop */
