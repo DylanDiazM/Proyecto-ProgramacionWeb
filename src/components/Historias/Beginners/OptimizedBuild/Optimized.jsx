@@ -59,9 +59,14 @@ const StyleDiv = styled.div`
 
   .info-price {
     background-color: #596978;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     font-size: 1.2rem;
+  }
+
+  div.col-lg-7.col {
+    width: 51%;
+    margin-right: 30px;
   }
 `;
 
@@ -258,13 +263,13 @@ const Optimized = (item) => (
       <Row className="info-price">
         {data.map((item, i) => (
           <>
-            <Col xs lg="6">
+            <Col xs lg="7">
               <p>Components Price</p>
-              <p className="text-center" style={{ fontWeight: "bold" }}>
+              <p className="text-end" style={{ fontWeight: "bold" }}>
                 ${item.price}
               </p>
             </Col>
-            <Col xs lg="4">
+            <Col xs lg="3.5">
               <p>Build fee</p>
               <p className="text-center" style={{ fontWeight: "bold" }}>
                 ${item.ensamblePrice}
